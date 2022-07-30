@@ -1,0 +1,466 @@
+body {
+     font-family: 'Poppins', sans-serif;
+     
+     font-size: 15px;
+     line-height: 1.6;
+
+     width: 100%;
+     max-width: 1593px;
+     margin: 0 auto;
+     background-color: #e5e5e5;
+     color: #22262A;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+     margin: 0;
+     padding: 0;
+
+}
+
+a {
+     text-decoration: none;
+}
+
+.container {
+     width: 100%;
+     max-width: 1138px;
+     margin: 111px auto;
+     padding: 5px;
+}
+
+.bg__white {
+     background-color: #FFFFFF;
+     border-radius: 0 0 60px 60px;
+}
+
+/* intro */ 
+.intro {
+     position: relative;
+
+     width: 100%;
+     max-width: 1593px;
+     height: 745px;
+
+     margin-bottom: 10px;
+
+     background: url(../images/header__bg.png) no-repeat;
+}
+
+.intro__info {
+     position: absolute;
+     right: 231px;
+     bottom: 101px;
+
+     width: 100%;
+     max-width: 453px;
+     height: 218px;
+}
+
+.info__suptitle h3 {
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 27px;
+}
+
+.info__title h1 {
+     font-weight: 700;
+     font-size: 80px;
+     line-height: 120px;
+
+     margin-top: -9px;
+}
+
+.info__text p {
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 27px;
+
+     margin-bottom: 27px;
+     margin-top: -9px;
+}
+
+.info__btn {
+     display: flex;
+
+}
+
+.btn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 100%;
+     max-width: 147px;
+     height: 35px;
+     line-height: 27px;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 27px;
+
+     text-align: center;
+     
+     color: #FFFFFF;
+
+     background-color: #22262A;
+
+     transition: color .2s linear, 
+     background-color .2s linear;
+}
+
+.btn:first-child {
+     margin-right: 34px;
+}
+
+.btn:hover {
+     background-color: #FFFFFF;
+     color: #22262A;
+}
+
+/* preview */ 
+.container--preview {
+     padding-left: 2.5px;
+     padding-right: 2.5px;
+     padding-top: 2.17px;
+     padding-bottom: 2.17px;
+}
+.preview {
+     display: flex;
+}
+.left__bottom {
+     display: flex;
+     justify-content: space-between;
+}
+
+.preview__left {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+     width: 100%;
+     max-width: 551px;
+}
+
+.preview img {
+     width: 100%;
+     height: 100%;
+}
+
+.preview__right {
+     position: relative;
+     background: #000000;
+
+     height: 100%;
+     max-height: 574px;
+     width: 100%;
+     max-width: 552px;
+
+     margin-left: 30px;
+     
+}
+
+.btn__prev {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     position: absolute;
+     bottom: 25px;
+     left: 28px;
+
+     width: 100%;
+     max-width: 203px;
+     height: 35px;
+
+     background-color: #FFFFFF;
+
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 27px;
+
+     color: #22262A;
+
+     transition: border-radius .2s linear;
+}
+
+.btn__prev:hover {
+     border-radius: 5px;
+}
+
+.preview__right img {
+     opacity: 50%;
+     max-width: 552px;
+     max-height: 574px;
+}
+
+/* womens__fashion */
+
+.section__header {
+     text-align: center;
+     margin-bottom: 65px;
+}
+
+.section__title {
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 30px;
+
+     margin-bottom: 15px;
+}
+
+.section__text {
+     line-height: 22px;
+}
+
+.fashion {
+     display: flex;
+}
+
+.fashion--media {
+     display: flex; 
+     
+}
+
+.fashion--media:first-child, .fashion__item:first-child {
+     margin-right: 22px;
+}
+
+.fashion__item {
+     width: 100%;
+     max-width: 268px;
+}
+
+
+.item__title {
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 22px;
+}
+
+.item__name, .item__price {
+     display: inline-block;
+     font-weight: 600;
+     font-size: 15px;
+     line-height: 22px;
+
+     text-decoration: none;
+     color: #22262A;
+}
+
+.item__price {
+     font-weight: 400;
+     text-decoration: line-through;
+}
+.item__price::after {
+     display: inline-block;
+     content: '$129.00';
+     color: #CF2929;
+
+     text-decoration: dotted;
+     margin-left: 40px;
+}
+
+.fashion img {
+     width: 100%;
+}
+
+/* avon__style */
+
+.avon__content {
+     display: flex;
+     
+}
+
+.avon__content img {
+     width: 100%;
+}
+
+.content__left {
+     margin-right: 29px;
+     margin-top: 87px;
+     width: 100%;
+     max-width: 552px;
+}
+
+.content__right {
+     position: relative;
+     height: 689px;
+     width: 100%;
+     max-width: 552px;
+}
+
+.content__right img {
+     width: 100%;
+     max-width: 514px;
+}
+
+.avone__link {
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: flex-end;
+
+     margin-top: -72px
+}
+
+.avone__link img {
+     border-image-outset: 10px;
+     border-top: 22px solid #fff;
+     border-left: 22px solid #fff;
+     z-index: 1;
+
+     width: 100%;
+     max-width: 227px
+}
+
+.womens__dress {
+     display: inline-block;
+     margin-bottom: 36px;
+
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 22px;
+
+     color: #22262A;
+}
+
+.womens__dress::after {
+     content: '';
+     display: block;
+
+     height: 1px;
+     width: 100%;
+     max-width: 180px;
+     margin-top: 4px;
+
+     background-color: #22262A;
+}
+
+/* intro--tachen */ 
+
+.intro--tachen {
+     background: url(../images/tachen__bg.png) no-repeat;
+}
+
+.intro--tachen .intro__info {
+     left: 230px;
+     top: 434px;
+     bottom: 0;
+     right: 0;
+
+     width: 100%;
+     max-width: 426px;
+}
+
+
+
+.intro--tachen .btn {
+     width: 100%;
+     max-width: 214px;
+     margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+     .intro--tachen {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: url(../images/tachen__bg--900px.png) no-repeat;
+     }
+
+     .intro--tachen .intro__info {
+          position: relative;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          
+     }
+
+     .avon__content {
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+     }
+
+     .content__left {
+          margin: 0;
+     }
+}
+
+@media (max-width: 700px) {
+     .intro {
+          background: url(../images/header__bg--700px.png) no-repeat;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .intro .intro__info {
+          position: relative;
+          right: 0;
+          bottom: 0;
+
+     }
+     .preview {
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .preview__right {
+          margin-left: 0;
+          margin-top: 20px;
+     }
+
+     .fashion {
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .fashion--media {
+          max-width: 700px;
+     }
+
+     .fashion--media:first-of-type{
+          margin: 0;
+     }
+     .intro--tachen {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: url(../images/tachen__bg--900px.png) no-repeat;
+     }
+}
+
+@media (max-width: 600px) {
+     .intro--tachen {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: url(../images/tachen__bg--600px.png) no-repeat;
+     }
+}
+
+@media (max-width: 470px) {
+     .intro__info {
+          margin-left: 20px;
+     }
+     .info__title h1 {
+          font-size: 60px;
+          line-height: 80px;
+     }
+
+     .info__suptitle h3 {
+          font-size: 13px;
+     }
+
+     .info__text p{
+          font-size: 13px;
+     }
+
+     .intro--tachen {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: url(../images/tachen__bg--600px.png) no-repeat;
+     }
+}
